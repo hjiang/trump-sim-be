@@ -13,6 +13,7 @@ fastai2==0.0.21
 fastcore==0.1.23
 fastprogress==0.2.4
 Flask==1.1.2
+Flask-Cors==3.0.8
 Flask-Sockets==0.2.1
 future==0.18.2
 gevent==1.5.0
