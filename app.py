@@ -27,7 +27,6 @@ def index():
 def classify():
     image = request.files['image']
     res = trump.predict(image.read())
-    print(res)
     response = jsonify({'result': res[0]})
     response.status_code = 200
     return response
